@@ -17,4 +17,5 @@ echo $this->Form->input('Deny', [
     'name' => 'authorization',
     'type' => 'submit'
 ]);
+echo $this->Form->unlockField('authorization');
 echo $this->Form->end();
